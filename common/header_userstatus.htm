@@ -1,0 +1,89 @@
+<!--{if $_G['uid']}-->
+<li class="profile">
+	<div id="um">
+		<div class="avt"><a href="home.php?mod=space&amp;uid=$_G[uid]"><!--{avatar($_G[uid],middle)}--></a></div>
+		<div {if $_G['uid'] && getstatus($_G['member']['allowadmincp'], 1)} class="menuProfile admin" {else} class="menuProfile" {/if}>
+			<div class="userInfo">
+				<span class="username"><b>{$_G[member][username]}</b><a href="home.php?mod=spacecp&amp;ac=usergroup" class="group">$_G[group][grouptitle]</a></span>
+				<div class="outside">
+					<span class="integral"><a href="home.php?mod=spacecp&amp;ac=credit&amp;showcredit=1"><i class="b-icon"></i><em>$_G[member][credits]</em></a></span>
+					<span class="msg"><a href="home.php?mod=space&amp;do=pm"><i class="b-icon"></i></a></span>
+				</div>
+			</div>
+			<!--{eval}-->
+			<!--
+			    $group = $_G['cache']['usergroup_'.$_G['groupid']];
+			    if ($group['grouptype'] == 'member' && $group['groupcreditslower'] != 999999999) {
+			        $upgradecredit = $group['groupcreditslower'] - $_G['credits'];
+			        $upgradeprogress = 100 - ceil($upgradecredit / ($group['groupcreditslower'] - $group['groupcreditshigher']) * 100);
+			        $upgradeprogress = min(max($upgradeprogress, 2), 100);
+			-->
+			<!--{/eval}-->
+			<!--{block return}-->
+			<div class="exp">
+				<em>经验</em>
+				<div class="pointsWrp">
+					<i class="icon">&#8501;</i>
+					$s<span class="pbg2" {if $upgrademenu} id="upgradeprogress_user_$uid" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!', 'menuid':'g_up$post[pid]_menu'});"{/if}><span class="pbr2" style="width:$upgradeprogress%;"></span></span>$e
+					<!--{if $upgrademenu}-->$menu<!--{/if}-->
+				</div>
+				<div class="points-schedule"><span class="now-points">$upgradeprogress</span><span class="next-points">/100%</span></div>
+			</div>
+			<!--{/block}-->
+			<!--{eval}-->
+			<!--echo $return;}-->
+			<!--{/eval}-->
+			<div class="memberMenuWrp">
+				<ul class="memberMenu">
+					<li><a href="home.php?mod=space&amp;uid=$_G[uid]" target="_blank" class="member"><i class="b-icon b-icon-pMember"></i>用户中心</a></li>
+					<li><a target="_blank" href="home.php?mod=spacecp" class="account"><i class="b-icon b-icon-p-account"></i>账户中心</a></li>
+					<li><a href="home.php?mod=spacecp&amp;ac=credit&amp;showcredit=1" target="_blank" class="wallet"><i class="b-icon b-icon-p-wallet"></i>我的积分</a></li>
+					<li><a href="#" target="_blank" class="live"><i class="b-icon b-icon-p-live"></i>直播中心</a></li>
+				</ul>
+			</div>
+			<div class="member-bottom">
+				<!--{if $_G['uid'] && getstatus($_G['member']['allowadmincp'], 1)}-->
+					<a href="portal.php?mod=portalcp"><!--{if $_G['setting']['portalstatus'] }-->{lang portal_manage}<!--{else}-->{lang portal_block_manage}<!--{/if}--></a>
+					<a href="admin.php" target="_blank">{lang admincp}</a>
+					<a href="javascript:saveUserdata('diy_advance_mode', '1');openDiy();">DIY</a>
+				<!--{/if}-->
+				<a class="logout" href="member.php?mod=logging&amp;action=logout&amp;formhash={FORMHASH}">{lang logout}</a>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="msg">
+	<!--{if $_G[member][newprompt]}--><div class="num">$_G[member][newprompt]</div><!--{/if}-->
+	<a class="link" href="home.php?mod=space&amp;do=pm" target="_blank">消息</a>
+</li>
+<li class="dynamic">
+	<a class="link" href="forum.php?mod=guide&view=hot" target="_blank">动态</a>
+</li>
+<li class="favorites">
+	<a class="link" href="home.php?mod=space&do=favorite&view=me" target="_blank">收藏夹</a>
+</li>
+<li class="history">
+	<a class="link" href="#" target="_blank">历史</a>
+</li>
+<!--{elseif !empty($_G['cookie']['loginuser'])}-->
+<p>
+	<strong><a id="loginuser" class="noborder"><!--{echo dhtmlspecialchars($_G['cookie']['loginuser'])}--></a></strong>
+	<span class="pipe">|</span><a href="member.php?mod=logging&amp;action=login" onclick="showWindow('login', this.href)">{lang activation}</a>
+	<span class="pipe">|</span><a href="member.php?mod=logging&amp;action=logout&amp;formhash={FORMHASH}">{lang logout}</a>
+</p>
+<!--{elseif !$_G[connectguest]}-->
+	<!--{template member/login_simple}-->
+<!--{else}-->
+<div id="um">
+	<div class="avt y"><!--{avatar(0,small)}--></div>
+	<p>
+		<strong class="vwmy qq">{$_G[member][username]}</strong>
+		<!--{hook/global_usernav_extra1}-->
+		<span class="pipe">|</span><a href="member.php?mod=logging&amp;action=logout&amp;formhash={FORMHASH}">{lang logout}</a>
+	</p>
+	<p>
+		<a href="home.php?mod=spacecp&amp;ac=credit&amp;showcredit=1">{lang credits}: 0</a>
+		<span class="pipe">|</span>{lang usergroup}: $_G[group][grouptitle]
+	</p>
+</div>
+<!--{/if}-->

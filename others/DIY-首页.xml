@@ -1,0 +1,2154 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="spacecss"><![CDATA[]]></item>
+	<item id="layoutdata">
+		<item id="tpw">
+			<item id="frame`frameFCK117">
+				<item id="attr">
+					<item id="name"><![CDATA[frameFCK117]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameFCK117_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameFCK117_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_3">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_3]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="tlw">
+			<item id="frame`frame89Vu9v">
+				<item id="attr">
+					<item id="name"><![CDATA[frame89Vu9v]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frame89Vu9v_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frame89Vu9v_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_4">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_4]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="xztg">
+			<item id="frame`framej516Nm">
+				<item id="attr">
+					<item id="name"><![CDATA[framej516Nm]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`framej516Nm_left">
+					<item id="attr">
+						<item id="name"><![CDATA[framej516Nm_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_5">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_5]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-douga-diy-left-ding">
+			<item id="frame`frame7c3Izg">
+				<item id="attr">
+					<item id="name"><![CDATA[frame7c3Izg]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frame7c3Izg_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frame7c3Izg_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_6">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_6]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-douga-diy-left-rankng">
+			<item id="frame`frameZlpGCJ">
+				<item id="attr">
+					<item id="name"><![CDATA[frameZlpGCJ]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameZlpGCJ_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameZlpGCJ_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_7">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_7]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-douga-diy-right-hot">
+			<item id="frame`frame71dk82">
+				<item id="attr">
+					<item id="name"><![CDATA[frame71dk82]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frame71dk82_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frame71dk82_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_10">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_10]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-douga-diy-right-hot_original">
+			<item id="frame`frameX2C1zQ">
+				<item id="attr">
+					<item id="name"><![CDATA[frameX2C1zQ]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameX2C1zQ_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameX2C1zQ_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_11">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_11]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-bangumi-diy-left-ding">
+			<item id="frame`frameuorH2P">
+				<item id="attr">
+					<item id="name"><![CDATA[frameuorH2P]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameuorH2P_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameuorH2P_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_8">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_8]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-bangumi-diy-left-rankng">
+			<item id="frame`frameGre318">
+				<item id="attr">
+					<item id="name"><![CDATA[frameGre318]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameGre318_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameGre318_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_9">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_9]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-bangumi-diy-right-ranking">
+			<item id="frame`frameux4MX3">
+				<item id="attr">
+					<item id="name"><![CDATA[frameux4MX3]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameux4MX3_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameux4MX3_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_12">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_12]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-music-diy-left-ding">
+			<item id="frame`frameIiuQk5">
+				<item id="attr">
+					<item id="name"><![CDATA[frameIiuQk5]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameIiuQk5_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameIiuQk5_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_14">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_14]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-music-diy-left-rankng">
+			<item id="frame`frame8B5O43">
+				<item id="attr">
+					<item id="name"><![CDATA[frame8B5O43]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frame8B5O43_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frame8B5O43_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_13">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_13]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-music-diy-right-hot">
+			<item id="frame`framec2JvhM">
+				<item id="attr">
+					<item id="name"><![CDATA[framec2JvhM]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`framec2JvhM_left">
+					<item id="attr">
+						<item id="name"><![CDATA[framec2JvhM_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_15">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_15]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-music-diy-right-hot_original">
+			<item id="frame`frame6niYJu">
+				<item id="attr">
+					<item id="name"><![CDATA[frame6niYJu]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frame6niYJu_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frame6niYJu_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_16">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_16]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item id="portal-dance-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-dance-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-dance-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-dance-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-game-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-game-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-game-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-game-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-technology-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-technology-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-technology-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-technology-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-ent-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-ent-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-ent-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-ent-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-kichiku-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-kichiku-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-kichiku-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-kichiku-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-movie-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-movie-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-movie-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-movie-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-teleplay-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-teleplay-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-teleplay-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-teleplay-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-fashion-diy-left-ding"><![CDATA[]]></item>
+		<item id="portal-fashion-diy-left-rankng"><![CDATA[]]></item>
+		<item id="portal-fashion-diy-right-hot"><![CDATA[]]></item>
+		<item id="portal-fashion-diy-right-hot_original"><![CDATA[]]></item>
+		<item id="portal-recommend-diy">
+			<item id="frame`frameyqJuX8">
+				<item id="attr">
+					<item id="name"><![CDATA[frameyqJuX8]]></item>
+					<item id="moveable"><![CDATA[true]]></item>
+					<item id="className"><![CDATA[frame move-span cl frame-1]]></item>
+					<item id="titles"><![CDATA[]]></item>
+				</item>
+				<item id="column`frameyqJuX8_left">
+					<item id="attr">
+						<item id="name"><![CDATA[frameyqJuX8_left]]></item>
+						<item id="className"><![CDATA[column frame-1-c]]></item>
+					</item>
+					<item id="block`portal_block_19">
+						<item id="attr">
+							<item id="name"><![CDATA[portal_block_19]]></item>
+							<item id="className"><![CDATA[block move-span]]></item>
+							<item id="titles"><![CDATA[]]></item>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+	</item>
+	<item id="blockdata">
+		<item id="block">
+			<item id="3">
+				<item id="bid"><![CDATA[3]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[幻灯片]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[1]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[0]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[url]]></item>
+						<item id="1"><![CDATA[pic]]></item>
+						<item id="2"><![CDATA[title]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[<div class="topic-preview-list-wrapper">
+  <ul class="topic-preview">
+    [loop1]
+    <li preview="preview" style="width: {picwidth}px; height: {picheight}px;">
+      <a href="{url}" {target}><img src="{pic}" width="{picwidth}" height="{picheight}" /></a>
+    </li>
+    [/loop1]
+  </ul>
+</div>
+<a class="more-topic" href="#" target="_blank">更多<i class="b-icon b-icon-arrow-r"></i></a>
+<div class="s-bottom">
+  <div class="title">
+    [loop2]
+    <span>
+      <a href="{url}" target="_blank">{title}</a>
+    </span>
+    [/loop2]
+  </div>
+  <ul id="topic_slider" class="slider-bar">
+    <li bar="bar" class="on"></li>
+    <li bar="bar" class=""></li>
+    <li bar="bar" class=""></li>
+    <li bar="bar" class=""></li>
+    <li bar="bar" class=""></li>
+    <li bar="bar" class=""></li>
+    <li bar="bar" class=""></li>
+  </ul>
+</div>]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+							<item id="1"><![CDATA[<li preview="preview" style="width: {picwidth}px; height: {picheight}px;">
+      <a href="{url}" {target}><img src="{pic}" width="{picwidth}" height="{picheight}" /></a>
+    </li>]]></item>
+							<item id="2"><![CDATA[<span>
+      <a href="{url}" target="_blank">{title}</a>
+    </span>]]></item>
+						</item>
+						<item id="loop">
+						</item>
+					</item>
+					<item id="hash"><![CDATA[30d79e95]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[440]]></item>
+				<item id="picheight"><![CDATA[220]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadnew]]></item>
+				<item id="param">
+					<item id="fids">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[dateline]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[20]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[7]]></item>
+				</item>
+				<item id="shownum"><![CDATA[7]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460359092]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="4">
+				<item id="bid"><![CDATA[4]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[幻灯片右侧热门主题]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[0]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[url]]></item>
+						<item id="1"><![CDATA[title]]></item>
+						<item id="2"><![CDATA[pic]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[views]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[<ul class="top-list clearfix">
+  [loop]
+  <li>
+    <div class="v-item">
+      <a href="{url}" target="_blank" title="{title}">
+        <div class="medal"></div>
+        <div class="original"></div>
+        <div class="preview"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></div>
+        <div class="mask"></div>
+        <div class="play-icon"></div>
+        <div class="info">
+          <div class="t">{title}</div>
+          <p class="up">up主：{author}</p>
+          <p class="play">播放：{views}</p>
+        </div>
+      </a>
+    </div>
+  </li>
+  [/loop]
+</ul>
+<div class="page prev no-select">昨日</div>
+<div class="page next no-select">一周</div>]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li>
+    <div class="v-item">
+      <a href="{url}" target="_blank" title="{title}">
+        <div class="medal"></div>
+        <div class="original"></div>
+        <div class="preview"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></div>
+        <div class="mask"></div>
+        <div class="play-icon"></div>
+        <div class="info">
+          <div class="t">{title}</div>
+          <p class="up">up主：{author}</p>
+          <p class="play">播放：{views}</p>
+        </div>
+      </a>
+    </div>
+  </li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[04546e49]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[2040]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460370908]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="5">
+				<item id="bid"><![CDATA[5]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[推广帖子]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[<ul class="rm-list">
+  [loop]
+  <li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+    <div class="v m300">
+      <a class="preview" href="{url}" {target} title="{title}">
+        <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+        <div class="x"><b class="x2">0:00</b></div>
+      </a>
+      <a href="{url}" {target} title="{title}">
+        <div class="t">{title}</div>
+      </a>
+    </div>
+  </li>
+  [/loop]
+</ul>]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+    <div class="v m300">
+      <a class="preview" href="{url}" {target} title="{title}">
+        <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+        <div class="x"><b class="x2">0:00</b></div>
+      </a>
+      <a href="{url}" {target} title="{title}">
+        <div class="t">{title}</div>
+      </a>
+    </div>
+  </li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[3654f89c]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadnew]]></item>
+				<item id="param">
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[5]]></item>
+				</item>
+				<item id="shownum"><![CDATA[5]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460370853]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="6">
+				<item id="bid"><![CDATA[6]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-动画-有新动态]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[7efe1570]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadnew]]></item>
+				<item id="param">
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460366763]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="7">
+				<item id="bid"><![CDATA[7]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-动画-最新投稿]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[7efe1570]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadhot]]></item>
+				<item id="param">
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="items"><![CDATA[10]]></item>
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="bannedids"><![CDATA[17]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460367005]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="8">
+				<item id="bid"><![CDATA[8]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-番剧-有新动态]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[7efe1570]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadhot]]></item>
+				<item id="param">
+					<item id="fids">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[views]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460370690]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="9">
+				<item id="bid"><![CDATA[9]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-番剧-最新投稿]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[7efe1570]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadnew]]></item>
+				<item id="param">
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[dateline]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460370696]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="10">
+				<item id="bid"><![CDATA[10]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-动画-排行-原创]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[currentorder]]></item>
+						<item id="9"><![CDATA[url]]></item>
+						<item id="10"><![CDATA[title]]></item>
+						<item id="11"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[index=1]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/index]
+
+[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+							<item id="1"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[34e72aa4]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[7]]></item>
+				</item>
+				<item id="shownum"><![CDATA[7]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460366948]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="11">
+				<item id="bid"><![CDATA[11]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-动画-排行-原创]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[currentorder]]></item>
+						<item id="9"><![CDATA[url]]></item>
+						<item id="10"><![CDATA[title]]></item>
+						<item id="11"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[index=1]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/index]
+
+[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+							<item id="1"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[34e72aa4]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[views]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[7]]></item>
+				</item>
+				<item id="shownum"><![CDATA[7]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460367001]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="12">
+				<item id="bid"><![CDATA[12]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-番剧-排行]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[currentorder]]></item>
+						<item id="9"><![CDATA[url]]></item>
+						<item id="10"><![CDATA[title]]></item>
+						<item id="11"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[index=1]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/index]
+
+[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+							<item id="1"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[34e72aa4]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[7]]></item>
+				</item>
+				<item id="shownum"><![CDATA[7]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460369169]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="13">
+				<item id="bid"><![CDATA[13]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-音乐-最新投稿]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[7efe1570]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460402655]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="14">
+				<item id="bid"><![CDATA[14]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-音乐-有新动态]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="v m300">
+    <a class="preview" href="{url}" {target} title="{title}">
+      <div class="medal"></div>
+      <div class="original"></div>
+      <div class="border"></div><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;">
+      <div class="x"><b class="x2">0:00</b></div>
+    </a>
+    <a href="{url}" {target} title="{title}">
+      <div class="t">{title}</div>
+      <div class="i">
+        <span><i class="b-icon b-icon-v-play"></i>{views}</span><span><i class="b-icon b-icon-v-dm"></i>{replies}</span>
+      </div>
+    </a>
+  </div>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[7efe1570]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460402658]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="15">
+				<item id="bid"><![CDATA[15]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-音乐-排行-全部]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[currentorder]]></item>
+						<item id="9"><![CDATA[url]]></item>
+						<item id="10"><![CDATA[title]]></item>
+						<item id="11"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[index=1]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/index]
+
+[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+							<item id="1"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[34e72aa4]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[7]]></item>
+				</item>
+				<item id="shownum"><![CDATA[7]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460130908]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="16">
+				<item id="bid"><![CDATA[16]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-音乐-排行-原创]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[currentorder]]></item>
+						<item id="9"><![CDATA[url]]></item>
+						<item id="10"><![CDATA[title]]></item>
+						<item id="11"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[index=1]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/index]
+
+[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+							<item id="1"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="on">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}" class="off">
+  <i class="number n{currentorder}">{currentorder}</i>
+  <div class="preview">
+    <a href="{url}" title="{title} 播放:{views}" target="_blank"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+  </div>
+  <a class="rl-info" href="{url}" title="{title} 播放:{views}" target="_blank">
+    <div class="title t">{title}</div>
+    <div class="i"><b class="pts" title="热度: {heats}">热度：{heats}</b></div>
+  </a>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[34e72aa4]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460215750]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="19">
+				<item id="bid"><![CDATA[19]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[0]]></item>
+				<item id="name"><![CDATA[首页-特别推荐]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[1]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[0]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[1]]></item>
+					<item id="settarget"><![CDATA[1]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[views]]></item>
+						<item id="1"><![CDATA[recommends]]></item>
+						<item id="2"><![CDATA[replies]]></item>
+						<item id="3"><![CDATA[author]]></item>
+						<item id="4"><![CDATA[sortname]]></item>
+						<item id="5"><![CDATA[dateline]]></item>
+						<item id="6"><![CDATA[summary]]></item>
+						<item id="7"><![CDATA[heats]]></item>
+						<item id="8"><![CDATA[url]]></item>
+						<item id="9"><![CDATA[title]]></item>
+						<item id="10"><![CDATA[pic]]></item>
+						<item id="11"><![CDATA[authorid]]></item>
+						<item id="12"><![CDATA[avatar_middle]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]
+<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="rm-item">
+    <a class="preview" href="{url}" target="_blank" title="{title}"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+    <div class="rm-item-info">
+      <a class="face" card="{author}" href="home.php?mod=space&uid={authorid}"{target}><img data-img="" src="{avatar_middle}" loaded="loaded" style="opacity: 1;"></a>
+      <a class="name" card="{author}" href="home.php?mod=space&uid={authorid}" target="_blank">{author}</a>
+      <span>推荐</span>
+    </div>
+    <a class="t" href="{url}" target="_blank" title="{title}">{title}</a>
+  </div>
+</li>
+[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[<li data-gk="{views}" data-sc="{recommends}" data-pl="" data-dm="{replies}" data-up="{author}" data-subtitle="" data-lm="{sortname}" data-tg="{dateline}" data-txt="{summary}" data-yb="{heats}">
+  <div class="rm-item">
+    <a class="preview" href="{url}" target="_blank" title="{title}"><img data-img="" src="{pic}" loaded="loaded" alt="{title}" style="opacity: 1;"></a>
+    <div class="rm-item-info">
+      <a class="face" card="{author}" href="home.php?mod=space&uid={authorid}"{target}><img data-img="" src="{avatar_middle}" loaded="loaded" style="opacity: 1;"></a>
+      <a class="name" card="{author}" href="home.php?mod=space&uid={authorid}" target="_blank">{author}</a>
+      <span>推荐</span>
+    </div>
+    <a class="t" href="{url}" target="_blank" title="{title}">{title}</a>
+  </div>
+</li>]]></item>
+					</item>
+					<item id="hash"><![CDATA[554bfb90]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[320]]></item>
+				<item id="picheight"><![CDATA[200]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[0]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[5]]></item>
+				</item>
+				<item id="shownum"><![CDATA[5]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1460366433]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+		</item>
+		<item id="style">
+		</item>
+	</item>
+</root>

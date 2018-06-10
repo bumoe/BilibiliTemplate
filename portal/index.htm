@@ -1,0 +1,959 @@
+<!--{template common/header}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!-- 顶部 -->
+	<div class="container-top-wrapper">
+		<div class="container-top cl">
+			<div class="b-l">
+				<div class="topic-preview-wrapper"><!--[diy=tpw]--><div id="tpw" class="area"></div><!--[/diy]--></div>
+			</div>
+			<div class="b-r">
+				<div class="top-list-wrapper"><!--[diy=tlw]--><div id="tlw" class="area"></div><!--[/diy]--></div>
+			</div>
+		</div>
+	</div>
+
+	<!--新作推广-->
+	<!--{eval 
+        $usernum = DB::result_first("SELECT count(*) FROM ".DB::table('common_member'));  //会员数
+        $onlinenum = DB::result_first("SELECT count(*) FROM ".DB::table('common_session'));  //在线会员数
+        $todayposts = DB::result_first("SELECT sum(todayposts) FROM ".DB::table('forum_forum')." WHERE status=1");  //今日发帖数
+        $yesterdayposts = DB::result_first("SELECT sum(yesterdayposts) FROM ".DB::table('forum_forum')." WHERE status=1");  //昨日发帖数
+        $posts = DB::result_first("SELECT sum(posts) FROM ".DB::table('forum_forum')." WHERE status=1");  //总帖子数
+	}-->
+	<div class="container-row" id="b_promote" area="b_promote">
+		<div class="b-l">
+			<div class="b-head">
+				<span class="b-head-i"></span>
+				<span class="b-head-t"><h2>推广</h2></span>
+				<div class="pmt-list">
+					<div class="pmt-link"><a href="#" target="_blank" title="西洋乐器演奏！">西洋乐器演奏！</a></div><div class="pmt-link"><a href="#" target="_blank" title="一起来开心地跳舞吧！">一起来开心地跳舞吧！</a></div>
+				</div>
+			</div>
+			<div class="b-body">
+				<!--[diy=xztg]--><div id="xztg" class="area"></div><!--[/diy]-->
+			</div>
+		</div>
+		<div class="b-r">
+			<div class="b-head">
+				<div class="index-online">
+					<span class="web-online">
+						<a href="#" title="在线观看：$onlinenum" target="_blank">在线人数：<em>$onlinenum</em></a>
+					</span>
+					<i class="s-line"></i>
+					<span class="new-video">
+						<a href="#" target="_blank">最新投稿：<em>$todayposts</em></a>
+					</span>
+				</div>
+			</div>
+			<div class="b-body">
+				<div class="index-promote">
+					<div class="pmt-item pmt-mid">
+						<a href="#" target="_blank"><img src="template/yloliTheme/images/portal-extansion.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 缺少直播功能所以此处无直播模块 -->
+
+	<!-- 动画 -->
+	<div class="container-row" id="b_douga" area="b_douga">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="动画">
+	            <h2>动画</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV动画总榜">世纪之巅 09年TV动画总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-douga-diy-left-ding]--><div id="portal-douga-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-douga-diy-left-rankng]--><div id="portal-douga-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-douga-diy-right-hot]--><div id="portal-douga-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-douga-diy-right-hot_original]--><div id="portal-douga-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- 番剧 -->
+	<div class="container-row" id="b_bangumi" area="b_bangumi">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="番剧">
+	            <h2>番剧</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>945</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" title="春天，又到了新番爆发的季节！">春天，又到了新番爆发的季节！</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-bangumi-diy-left-ding]--><div id="portal-bangumi-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-bangumi-diy-left-rankng]--><div id="portal-bangumi-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list" style="left: -1px; right: auto;">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/13-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/13-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="rlist bangumi-ranking"><!--[diy=portal-bangumi-diy-right-ranking]--><div id="portal-bangumi-diy-right-ranking" class="area"></div><!--[/diy]--></ul>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- 音乐 -->
+	<div class="container-row" id="b_music" area="b_music">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="音乐">
+	            <h2>音乐</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV音乐总榜">世纪之巅 09年TV音乐总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-music-diy-left-ding]--><div id="portal-music-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-music-diy-left-rankng]--><div id="portal-music-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-music-diy-right-hot]--><div id="portal-music-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-music-diy-right-hot_original]--><div id="portal-music-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- 舞蹈 -->
+	<div class="container-row" id="b_dance" area="b_dance">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="舞蹈">
+	            <h2>舞蹈</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV舞蹈总榜">世纪之巅 09年TV舞蹈总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-dance-diy-left-ding]--><div id="portal-dance-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-dance-diy-left-rankng]--><div id="portal-dance-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-dance-diy-right-hot]--><div id="portal-dance-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-dance-diy-right-hot_original]--><div id="portal-dance-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 游戏 -->
+	<div class="container-row" id="b_game" area="b_game">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="游戏">
+	            <h2>游戏</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV游戏总榜">世纪之巅 09年TV游戏总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-game-diy-left-ding]--><div id="portal-game-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-game-diy-left-rankng]--><div id="portal-game-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-game-diy-right-hot]--><div id="portal-game-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-game-diy-right-hot_original]--><div id="portal-game-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- 科技 -->
+	<div class="container-row" id="b_technology" area="b_technology">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="科技">
+	            <h2>科技</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV科技总榜">世纪之巅 09年TV科技总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-technology-diy-left-ding]--><div id="portal-technology-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-technology-diy-left-rankng]--><div id="portal-technology-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-technology-diy-right-hot]--><div id="portal-technology-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-technology-diy-right-hot_original]--><div id="portal-technology-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 娱乐 -->
+	<div class="container-row" id="b_ent" area="b_ent">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="娱乐">
+	            <h2>娱乐</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV娱乐总榜">世纪之巅 09年TV娱乐总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-ent-diy-left-ding]--><div id="portal-ent-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-ent-diy-left-rankng]--><div id="portal-ent-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-ent-diy-right-hot]--><div id="portal-ent-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-ent-diy-right-hot_original]--><div id="portal-ent-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 鬼畜 -->
+	<div class="container-row" id="b_kichiku" area="b_kichiku">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="鬼畜">
+	            <h2>鬼畜</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV鬼畜总榜">世纪之巅 09年TV鬼畜总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-kichiku-diy-left-ding]--><div id="portal-kichiku-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-kichiku-diy-left-rankng]--><div id="portal-kichiku-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-kichiku-diy-right-hot]--><div id="portal-kichiku-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-kichiku-diy-right-hot_original]--><div id="portal-kichiku-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 电影 -->
+	<div class="container-row" id="b_movie" area="b_movie">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="电影">
+	            <h2>电影</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV电影总榜">世纪之巅 09年TV电影总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-movie-diy-left-ding]--><div id="portal-movie-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-movie-diy-left-rankng]--><div id="portal-movie-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-movie-diy-right-hot]--><div id="portal-movie-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-movie-diy-right-hot_original]--><div id="portal-movie-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 电视剧 -->
+	<div class="container-row" id="b_teleplay" area="b_teleplay">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="电视剧">
+	            <h2>电视剧</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV电视剧总榜">世纪之巅 09年TV电视剧总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-teleplay-diy-left-ding]--><div id="portal-teleplay-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-teleplay-diy-left-rankng]--><div id="portal-teleplay-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-teleplay-diy-right-hot]--><div id="portal-teleplay-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-teleplay-diy-right-hot_original]--><div id="portal-teleplay-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 时尚 -->
+	<div class="container-row" id="b_fashion" area="b_fashion">
+	  <div class="b-section-head"></div>
+	  <div class="b-section-body">
+	    <div class="b-l">
+	      <div class="b-head">
+	        <span class="b-head-i"></span>
+	        <span class="b-head-t">
+	          <a href="#" title="时尚">
+	            <h2>时尚</h2>
+	          </a>
+	        </span>
+	        <ul class="b-slt-tab">
+	          <li class="on" data-source="/index/ding.json" push="">
+	            <span class="b-tab-text">有新动态</span>
+	          </li>
+	          <li data-source="/index/ranking.json">
+	            <span class="b-tab-text">最新投稿</span>
+	          </li>
+	        </ul>
+	        <div class="b-link-more">
+	          <a href="#">更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	        <div class="read-push">
+	          <span class="icon-refresh"></span>
+	          <span class="info"><b>0</b><em>条新动态</em></span>
+	        </div>
+	        <div class="pmt-list pmt-inline"><i class="pmt-icon"></i>
+	          <div class="pmt-link">
+	            <a href="#" target="_blank" title="世纪之巅 09年TV时尚总榜">世纪之巅 09年TV时尚总榜</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <ul class="vidbox v-list">
+	     	  <!--[diy=portal-fashion-diy-left-ding]--><div id="portal-fashion-diy-left-ding" class="area"></div><!--[/diy]-->
+	     	  <!--[diy=portal-fashion-diy-left-rankng]--><div id="portal-fashion-diy-left-rankng" class="area"></div><!--[/diy]-->
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="b-r">
+	      <div class="b-head">
+	        <div class="left">
+	          <span class="b-head-t">
+	            <h3>排行</h3>
+	          </span>
+	          <ul class="b-slt-tab">
+	            <li class="on" type="hot">
+	              <span class="b-tab-text">全部</span>
+	            </li>
+	            <li type="hot_original">
+	              <span class="b-tab-text">原创</span>
+	            </li>
+	          </ul>
+	        </div>
+	        <div class="right">
+	          <div class="b-slt">
+	            <span class="txt">三日</span>
+	            <div class="b-slt-arrow"></div>
+	            <ul class="list">
+	              <li selected="selected" class="b-state-selected" data-value="3" data-source="/index/catalogy/1-3day.json">三日</li>
+	              <li data-value="7" data-source="/index/catalogy/1-week.json">一周</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="b-body">
+	        <div class="r-list-body" style="overflow: hidden;">
+	          <div class="r-list-wrapper" style="width: 200%; margin-left: 0%;">
+	            <ul class="rlist"><!--[diy=portal-fashion-diy-right-hot]--><div id="portal-fashion-diy-right-hot" class="area"></div><!--[/diy]--></ul>
+	            <ul class="rlist"><!--[diy=portal-fashion-diy-right-hot_original]--><div id="portal-fashion-diy-right-hot_original" class="area"></div><!--[/diy]--></ul>
+	          </div>
+	        </div>
+	        <div class="more-link">
+	          <a href="#" target="_blank">查看更多<i class="b-icon b-icon-arrow-r"></i></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- 特别推荐 -->
+	<div class="container-row" id="b_recommend" area="b_recommend">
+	  <div class="b-l">
+	    <div class="b-head">
+	      <span class="b-head-t">
+	        <a href="/list/recommend/1.html" title="特别推荐">
+	          <h2>特别推荐</h2>
+	        </a>
+	      </span>
+	    </div>
+	    <div class="b-body">
+        	<ul class="rm-list recommend"><!--[diy=portal-recommend-diy]--><div id="portal-recommend-diy" class="area"></div><!--[/diy]--></ul>
+	    </div>
+	  </div>
+	  <div class="b-r">
+	    <div class="r-promote multi">
+	      <div class="pmt-item pmt-mid">
+	        <a href="http://www.bilibili.com/event" target="_blank"><img src="http://i2.hdslb.com/promote/276ed33d952f18a61046dc71aea7af50.jpg"></a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+</div>
+<script type="text/javascript" src="template/yloliTheme/script/portal.js"></script>
+<script src="misc.php?mod=diyhelp&action=get&type=index&diy=yes&r={echo random(4)}" type="text/javascript"></script>
+<!--{template common/footer}-->

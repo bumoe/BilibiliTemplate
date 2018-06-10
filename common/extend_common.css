@@ -1,0 +1,1433 @@
+@charset "utf-8";
+
+/*全局基础设定*/
+body {
+	margin: 0;
+	color: #444;
+}
+.block {
+	margin: inherit;
+}
+.cl:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.icon {
+	background-repeat: no-repeat;
+	display: block;
+	width: 14px;
+	height: 14px;
+}
+a, a:focus, a:hover, a:active, input, input:focus, input:hover, input:active, button, button:focus, button:hover, button:active {
+	text-decoration: none;
+	outline: none;
+}
+li {
+	list-style: none;
+}
+address, caption, cite, code, dfn, em, i, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+.xg1, .xg1 a {
+	color: inherit !important;
+}
+.temp {
+	margin: 0;
+}
+.frame, .frame-tab {
+	margin-bottom: 0;
+	border: 0;
+	background: none;
+}
+
+/*整站通用样式设定*/
+.wp {
+	width: 1160px;
+}
+.b-icon {
+	background: url(template/yloliTheme/images/icons-bili.png) no-repeat;
+}
+.z::after, .container-top::after, .container-row::after, .container-body::after, .b-head::after, .b-body::after, .container-row .ranking::after, .container-row .b-hd::after, .container-row .cld-new::after, .container-row .b-r .r-pmt::after, .container-row .b-r .r-list-ranking li .r-item::after, .r-list-body::after, .r-list-wrapper::after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0px;
+	clear: both;
+	font-size: 0px;
+}
+
+/*B-Icon*/
+.b-icon {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	*vertical-align: middle !important;
+	width: 12px;
+	height: 12px;
+	background: url(template/yloliTheme/images/icons-bili.png) no-repeat
+}
+.b-icon.b-icon-v-play {
+	background-position: -282px -90px
+}
+.b-icon.b-icon-v-dm {
+	background-position: -282px -218px
+}
+.b-icon.b-icon-v-fav {
+	background-position: -282px -346px
+}
+.b-icon.b-icon-v-coin {
+	background-position: -282px -410px
+}
+.b-icon.b-icon-v-author {
+	background-position: -282px -154px
+}
+.b-icon.b-icon-v-comment {
+	background-position: -282px -1114px
+}
+.b-icon.b-icon-bangumi-w {
+	width: 54px;
+	height: 54px;
+	background: url(template/yloliTheme/images/bangumi-weekday.png) no-repeat
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-wn {
+	background-position: -933px -38px
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-w0 {
+	background-position: -805px -38px
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-w1 {
+	background-position: -36px -38px
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-w2 {
+	background-position: -165px -38px
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-w3 {
+	background-position: -293px -38px
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-w4 {
+	background-position: -420px -38px
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-w5 {
+	background-position: -549px -38px
+}
+.b-icon.b-icon-bangumi-w.b-icon-bangumi-w6 {
+	background-position: -677px -38px
+}
+.b-icon.b-icon-arrow-l-d {
+	width: 18px;
+	height: 8px;
+	background-position: -853px -489px
+}
+.b-icon.b-icon-arrow-d {
+	background-position: -475px -157px;
+	width: 12px;
+	height: 6px
+}
+.b-icon.b-icon-arrow-r {
+	background-position: -478px -218px;
+	width: 6px;
+	height: 12px;
+	margin: -2px 0 0 5px
+}
+.b-icon.b-icon-arrow-red-r {
+	background-position: -478px -281px;
+	width: 6px;
+	height: 12px;
+	margin: -2px 0 0 5px
+}
+.b-icon.b-icon-toggle-down {
+	background: url(template/yloliTheme/images/icons-bili.png) -474px -732px no-repeat;
+	width: 12px;
+	height: 10px
+}
+.b-icon.b-icon-toggle-up {
+	background: url(template/yloliTheme/images/icons-bili.png) -473px -797px no-repeat;
+	width: 12px;
+	height: 10px
+}
+.b-icon.b-icon-live-host {
+	background-position: -282px -154px
+}
+.b-icon.b-icon-live-online {
+	background-position: -282px -282px
+}
+.b-icon.b-icon-love {
+	width: 12px;
+	height: 12px;
+	vertical-align: top;
+	margin-top: 6px;
+	background: url(template/yloliTheme/images/icons-bili.png) -666px -602px no-repeat
+}
+.b-icon.b-icon-delete {
+	width: 12px;
+	height: 16px;
+	vertical-align: top;
+	margin-top: 6px;
+	background: url(template/yloliTheme/images/icons-bili.png) -281px -1047px no-repeat
+}
+.b-icon.b-icon-history {
+	background: url(template/yloliTheme/images/icons-bili.png) -83px -850px no-repeat;
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-right: 8px
+}
+.b-icon.b-icon-triangle-gray-left {
+	background: url(template/yloliTheme/images/icons-bili.png) -841px -982px no-repeat;
+	width: 13px;
+	height: 20px;
+	display: inline-block;
+	z-index: 2
+}
+.b-icon.b-icon-n-activity {
+	width: 16px;
+	background-position: -280px -1179px
+}
+.b-icon.b-icon-n-gc {
+	width: 16px;
+	background-position: -279px -1241px
+}
+.b-icon.b-icon-n-yoo {
+	width: 16px;
+	background-position: -280px -1306px
+}
+.b-icon.b-icon-n-h {
+	width: 16px;
+	background-position: -280px -1370px
+}
+.b-icon.b-icon-n-mango {
+	width: 16px;
+	height: 13px;
+	background-position: -280px -1433px
+}
+.b-icon.b-icon-a {
+	background: transparent url(template/yloliTheme/images/icons-bili.png) no-repeat top left;
+	display: inline-block;
+	width: 28px;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+}
+.b-icon.b-icon-a.b-icon-play {
+	background-position: -659px -210px;
+}
+.b-icon.b-icon-a.b-icon-danmaku {
+	background-position: -659px -275px;
+}
+.b-icon.b-icon-a.b-icon-coin {
+	background-position: -659px -338px;
+}
+.b-icon.b-icon-a.b-icon-stow {
+	background-position: -659px -402px;
+	cursor: pointer;
+}
+.b-icon.b-icon-a.b-icon-stow.on {
+	background-position: -725px -402px;
+}
+.b-icon.b-icon-a.b-icon-sitting {
+	background-position: -725px -338px;
+}
+.b-icon.b-icon-triangle-gray-left {
+	background-position: -841px -982px;
+	width: 13px;
+	height: 20px;
+	display: inline-block;
+	z-index: 2;
+}
+
+/*头部*/
+
+/*顶部虚化层背景*/
+
+.headerBlurMaskBG, #hd {
+	background: url(template/yloliTheme/images/headers/0.png) top center no-repeat;
+}
+.headerBlurMaskWarp {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 42px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+	z-index: 0;
+}
+.headerBlurMaskBG {
+	position: absolute;
+	height: 62px;
+	width: 100%;
+	-webkit-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=5, MakeShadow=false);
+	z-index: 50;
+}
+.headerBlurMask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	filter: alpha(opacity=40) \9;
+	background-color: rgba(255, 255, 255, 0.4);
+	z-index: 100;
+}
+#hd {
+	margin-bottom: 62px;
+}
+#hd .wp {
+
+	/*position: relative;*/
+	padding: 0;
+}
+#hd .wp .hdc {
+	position: relative;
+	height: 170px;
+}
+
+/*logo*/
+#hd .wp .hdc h2 {
+	padding: 0;
+}
+#hd .wp .hdc h2 .logo img {
+	position: absolute;
+	left: 24px;
+	top: 55px;
+	width: 220px;
+	height: 105px;
+}
+
+/*顶部虚化层内容*/
+#hd .wp .headerBlur .line {
+	display: inline-block;
+	border-left: 1px solid #222;
+	height: 12px;
+	margin-top: 16px;
+	vertical-align: top;
+}
+#hd .wp .headerBlur li .link {
+	display: block;
+	padding: 0 15px;
+	transition: .15s background-color;
+	font-size: 13px;
+	line-height: 42px;
+}
+#hd .wp .headerBlur li .link:hover {
+	background: rgba(255, 255, 255, 0.24);
+}
+#hd .wp .headerBlur .topNav {
+	float: left;
+	height: 42px;
+	font-size: 12px;
+}
+#hd .wp .headerBlur .topNav li {
+	float: left;
+	text-align: center;
+	line-height: 42px;
+	position: relative;
+}
+#hd .wp .headerBlur .topNav li .link .new {
+	position: absolute;
+	right: -8px;
+	color: #f25d8e;
+	top: 13px;
+	background-position: -851px -412px;
+	width: 22px;
+	height: 10px;
+}
+#hd .wp .headerBlur .topNav li.home {
+	margin-left: -10px;
+	background-position: -910px -74px;
+	width: auto;
+	height: auto;
+}
+#hd .wp .headerBlur .topNav li.home .link {
+	width: 50px;
+	height: 42px;
+	padding: 0 0 0 20px;
+}
+#hd .wp .headerBlur .userBox {
+	float: right;
+	font-size: 12px;
+}
+#hd .wp .headerBlur .userBox li {
+	float: left;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	position: relative;
+}
+#hd .wp .headerBlur .userBox li.loginReg {
+	padding: 0 10px;
+}
+#hd .wp .headerBlur .userBox li.loginReg .line {
+	float: left;
+}
+#hd .wp .headerBlur .userBox li.loginReg .link {
+	float: left;
+	display: inline-block;
+	padding: 0 10px;
+}
+#hd .wp .headerBlur .userBox li.profile {
+	margin: 0 9px;
+	width: 36px;
+}
+#hd .wp .headerBlur .userBox li.profile #um {
+	display: inline-block;
+	padding: 0;
+}
+#hd .wp .headerBlur .userBox li.profile #um .avt {
+	display: inline-block;
+	margin: 3px 0;
+}
+#hd .wp .headerBlur .userBox li.profile #um .avt img {
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 0;
+	border: 0 solid #fff;
+	border-radius: 18px;
+	display: block;
+	height: 36px;
+	width: 36px;
+	margin: 3px 0;
+	transition: .3s .2s;
+	padding: 0;
+}
+#hd .wp .headerBlur .userBox li.profile:hover #um .avt img {
+	width: 64px;
+	height: 64px;
+	left: -16px;
+	top: 15px;
+	margin: 0;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile {
+	background: #fff;
+	position: absolute;
+	top: 42px;
+	left: 50%;
+	width: 260px;
+	height: 0;
+	padding: 0;
+	margin-left: -130px;
+	z-index: 10;
+	list-style: none;
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 2px 4px;
+	overflow: hidden;
+	transition: .2s .2s;
+}
+#hd .wp .headerBlur .userBox li.profile:hover .menuProfile {
+	height: 217px;
+	padding: 53px 0 0 0;
+}
+#hd .wp .headerBlur .userBox li.profile:hover .menuProfile.admin {
+	height: 155px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .vwmy {
+	padding: 0;
+	background: none;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo {
+	margin-bottom: 10px;
+	padding: 0 20px;
+	line-height: normal;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .b-icon {
+	display: inline-block;
+	position: relative;
+	height: 18px;
+	width: 18px;
+	vertical-align: middle;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .username {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	line-height: 16px;
+	padding-bottom: 15px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .username .group {
+	background-color: #ff80ac;
+	color: white;
+	font-size: 10px;
+	font-weight: lighter;
+	padding: 1px 3px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .outside {
+	height: 18px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .outside .integral {
+	text-align: left;
+	float: left;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .outside .integral .b-icon {
+	background-position: -343px -471px;
+	margin-right: 10px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .outside .msg {
+	text-align: right;
+	float: right;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .userInfo .outside .msg .b-icon {
+	background-position: -343px -534px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp {
+	text-align: left;
+	padding: 0 0 0 20px;
+	position: relative;
+	z-index: 100;
+	margin-top: 22px;
+	margin-bottom: 30px;
+	height: 20px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp em {
+	height: 20px;
+	line-height: 24px;
+	float: left;
+	margin-right: 5px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp .pointsWrp {
+	float: left;
+	position: relative;
+	width: 210px;
+	height: 20px;
+	line-height: 20px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp .pointsWrp .icon {
+	display: inline-block;
+	position: absolute;
+	left: 3px;
+	top: 2px;
+	background-color: #ff80ac;
+	width: 18px;
+	height: 18px;
+	border-radius: 9px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	font-family: tomaho;
+	z-index: 30;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp .pointsWrp .pbg2 {
+	height: 8px;
+	width: 170px;
+	display: inline-block;
+	background-color: #eee;
+	position: absolute;
+	left: 20px;
+	top: 7px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp .pointsWrp .pbg2 .pbr2 {
+	height: 100%;
+	background-color: #ff80ac;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp .points-schedule {
+	line-height: 18px;
+	position: absolute;
+	right: 20px;
+	top: 16px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp .points-schedule .now-points {
+	color: #222;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .exp .points-schedule .next-points {
+	color: #ccc;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp {
+	margin: 0 20px;
+	overflow: hidden;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu {
+	border-top: 1px solid #e5e9ef;
+	padding: 10px 0;
+	margin-right: -20px;
+	clear: both;
+	zoom: 1;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu li {
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+	position: relative;
+	text-align: left;
+	height: auto;
+	line-height: normal;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu li a {
+	text-align: left;
+	margin: 0 auto;
+	display: block;
+	padding: 5px 0 5px 0;
+	line-height: 16px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu li .b-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu li .b-icon.b-icon-pMember {
+	background-position: -536px -1046px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu li .b-icon.b-icon-p-account {
+	background-position: -472px -407px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu li .b-icon.b-icon-p-wallet {
+	background-position: -472px -472px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .memberMenuWrp .memberMenu li .b-icon.b-icon-p-live {
+	background-position: -473px -855px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .member-bottom {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 20px;
+	background-color: #f4f5f7;
+	border-radius: 0 0 4px 4px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .member-bottom a {
+	float: left;
+	margin-right: 14px;
+}
+#hd .wp .headerBlur .userBox li.profile .menuProfile .member-bottom a.logout {
+	float: right;
+	margin: 0;
+}
+#hd .wp .headerBlur .userBox li.post .link {
+	margin: 0;
+	padding: 0;
+	width: 58px;
+	position: relative;
+	z-index: 10;
+	background: url(template/yloliTheme/images/b-post.png) center center no-repeat;
+	height: 48px;
+	border-radius: 0 0 5px 5px;
+	color: #fff !important;
+	font-size: 14px;
+}
+#hd .wp .headerBlur .userBox li .num {
+	height: 12px;
+	line-height: 12px;
+	color: #fff;
+	background-color: #f25d8e;
+	border-radius: 10px;
+	position: absolute;
+	padding: 1px 2px;
+	top: 7px;
+	left: 41px;
+	min-width: 16px;
+	z-index: 30;
+	text-align: center;
+}
+
+/*顶部下部分*/
+#hd .wp .p_pop {
+	z-index: 100;
+	overflow: hidden;
+	background: #fff;
+	border: 1px solid #e5e9ef \9;
+	border-top: 0;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 2px 4px;
+	border-radius: 0 0 4px 4px;
+	height: auto;
+	border: none;
+	padding: 0;
+	margin-top: -1px;
+}
+#hd .wp .p_pop li {
+	position: relative;
+	display: inherit;
+	font-size: 12px;
+	line-height: 20px;
+	min-width: 120px;
+	height: auto;
+	overflow: hidden;
+	text-align: left;
+	transition: .2s all;
+}
+#hd .wp .p_pop li:hover {
+	background-color: #e5e9ef;
+}
+#hd .wp .p_pop li a {
+	border: none;
+	padding: 5px 15px 5px 25px;
+	margin-right: 10px;
+	background: url(template/yloliTheme/images/icons2.png) no-repeat 12px -1613px;
+	white-space: nowrap;
+	transition: .2s all;
+	overflow: hidden;
+	position: relative;
+	left: 0;
+	color: #222;
+}
+#hd .wp .p_pop li:hover a {
+	left: 5px;
+	text-shadow: none;
+	color: #222;
+}
+#hd .wp .p_pop li a b {
+	display: inline-block;
+	position: relative;
+	font-weight: normal;
+}
+#hd .wp .p_pop li a em {
+	content: '';
+	background: url(template/yloliTheme/images/icons2.png) no-repeat 0 -1581px;
+	width: 15px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	right: -100px;
+	top: 0;
+	transition: .2s all;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#hd .wp .p_pop li:hover a em {
+	right: -21px;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+#nv, #mu {
+	border: none;
+}
+#nv {
+	background: none;
+	position: absolute;
+	height: 50px;
+	padding: 6px 0;
+	overflow: inherit;
+}
+#nv ul {
+	height: 49px;
+	border-bottom: 1px solid #e5e9ef;
+}
+#nv ul li {
+	position: relative;
+	background: none;
+	padding: 0;
+	height: auto;
+}
+#nv ul li.a {
+	background: none;
+	margin: 0;
+}
+#nv ul li a {
+	position: relative;
+	color: #222;
+	font-style: normal;
+	font-weight: normal;
+	height: 42px;
+	line-height: 50px;
+	padding: 8px 20px 0px;
+}
+#nv ul li.a a:after {
+	content: '';
+	position: absolute;
+	left: 20px;
+	width: 28px;
+	height: 40px;
+	border-bottom: 2px solid #ff80ac;
+	color: #ff80ac;
+}
+#nv ul li a:hover, #nv ul li.hover a:hover, #nv ul li.hover a {
+	background: none;
+}
+#nv ul li.a a, #nv ul li a:hover {
+	color: #ff80ac;
+}
+#nv ul li#mn_portal {
+	background: url(template/yloliTheme/images/icons-bili.png) -658px -1170px no-repeat;
+}
+#nv ul li#mn_portal a {
+	color: #222;
+	padding-left: 0;
+}
+#nv ul li#mn_portal a:after {
+	display: none;
+}
+#nv ul li .addnew {
+	display: inline-block;
+	background-color: #ffafc9;
+	position: absolute;
+	top: 8px;
+	left: 50%;
+	min-width: 18px;
+	height: 12px;
+	line-height: 12px;
+	padding: 1px 3px;
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	font-family: Calibri, Arial, Helvetica, sans-serifsans-serif;
+	border-radius: 4px;
+	transform: translateX(-50%);
+}
+#nv ul li#mn_portal .addnew {
+	display: none;
+}
+#nv ul li.m-i .i_num {
+	position: absolute;
+	display: none;
+	z-index: 100;
+	left: 0;
+	overflow: hidden;
+	top: 49px;
+	background: #fff;
+	border: 1px solid #e5e9ef \9;
+	border-top: 0;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 2px 4px;
+	border-radius: 0 0 4px 4px;
+	*width: 150px;
+	height: auto
+}
+#nv ul li.m-i .i_num li {
+	position: relative;
+	font-size: 12px;
+	line-height: 20px;
+	min-width: 120px;
+	height: auto;
+	overflow: hidden;
+	text-align: left;
+	transition: .2s all
+}
+#nv ul li.m-i .i_num li:hover {
+	background-color: #e5e9ef
+}
+#nv ul li.m-i .i_num li a {
+	padding: 5px 15px 5px 25px;
+	margin-right: 10px;
+	background: url(template/yloliTheme/images/icons2.png) no-repeat 12px -1613px;
+	white-space: nowrap;
+	transition: .2s all;
+	overflow: hidden;
+	position: relative;
+	left: 0;
+	color: #222;
+	height: auto;
+}
+#nv ul li.m-i .i_num li a b {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	font-weight: normal;
+	line-height: normal;
+	line-height: 20px;
+}
+#nv ul li.m-i .i_num li a em {
+	background: url(template/yloliTheme/images/icons2.png) no-repeat 0 -1581px;
+	width: 15px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	right: -100px;
+	top: 0;
+	transition: .2s all;
+	opacity: 0;
+	filter: alpha(opacity=0)
+}
+#nv ul li.m-i .i_num li:hover a {
+	left: 5px;
+	text-shadow: none;
+	color: #222
+}
+#nv ul li.m-i .i_num li:hover a em {
+	right: -21px;
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+#nv ul li.m-i:hover .i_num {
+	display: block
+}
+#nv ul li.m-i-square {
+	margin: 0 20px
+}
+#nv ul li.m-i-square .i_num {
+	padding: 4px 0
+}
+#nv ul li.m-i-square .i_num li {
+	min-width: 107px;
+	margin-top: 8px
+}
+#nv ul li.m-i-square .i_num li:first-child {
+	margin-top: 0
+}
+#nv ul li.m-i-square .i_num li a {
+	padding: 2px 10px 2px 18px;
+	background: 0;
+	height: auto;
+}
+#nv ul li.m-i-square .i_num li a .b-icon {
+	margin-right: 4px;
+	margin-top: 4px;
+	vertical-align: top;
+}
+#nv ul li.m-i-square .i_num li a em {
+	display: none
+}
+#nv ul li.m-i-square .i_num .square-pmt-field {
+	display: none
+}
+#nv ul li.m-i-square a.i-link {
+	padding: 0;
+}
+#nv ul li.m-i-square a.i-link em {
+	display: inline-block;
+	padding-left: 22px;
+	padding-right: 0;
+	padding-top: 0;
+	height: 50px;
+	margin: 0 !important;
+	font-size: 16px;
+	background: url(template/yloliTheme/images/icons-bili.png) -664px -904px no-repeat
+}
+#nv ul li.m-i-square.m-i-ex .i_num {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	white-space: nowrap;
+	width: 387px;
+	height: 188px
+}
+#nv ul li.m-i-square.m-i-ex .i_num ul {
+	width: 107px;
+	height: auto;
+	margin-top: -6px;
+	border: 0;
+}
+#nv ul li.m-i-square.m-i-ex .i_num .square-pmt-field {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	display: block;
+	width: 240px;
+	height: 188px;
+	padding: 0 20px 0 19px;
+	border-left: 1px solid #e5e9ef
+}
+#nv ul li.m-i-square.m-i-ex .i_num .square-pmt-field .square-pmt-item {
+	margin-top: 20px;
+	overflow: hidden
+}
+#nv ul li.m-i-square.m-i-ex .i_num .square-pmt-field .square-pmt-item:first-child {
+	margin-top: 0
+}
+#nv ul li.m-i-square.m-i-ex .i_num .square-pmt-field .square-pmt-item a {
+	padding: 0;
+	height: auto;
+}
+#nv ul li.m-i-square.m-i-ex .i_num .square-pmt-field .square-pmt-item img {
+	width: 240px;
+	height: 84px;
+	border-radius: 4px
+}
+#nv ul li.m-i.m-i-live.on a.i-link em, #nv ul li.m-i.m-i-square.on a.i-link em {
+	height: 48px
+}
+#nv ul li.m-i.m-i-live {
+	margin-left: 20px
+}
+#nv ul li.m-i.m-i-live a {
+	padding: 0;
+}
+#nv ul li.m-i.m-i-live a.i-link em {
+	display: inline-block;
+	padding-left: 22px;
+	padding-right: 0;
+	padding-top: 0;
+	height: 50px;
+	margin: 0 !important;
+	background: url(template/yloliTheme/images/icons-bili.png) -664px -518px no-repeat;
+	font-size: 16px;
+}
+.menu-r {
+	position: absolute;
+	margin-left: 978px;
+	height: 50px;
+	padding: 6px 0;
+}
+.menu-r .random-p, .menu-r .mobile-p {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	margin: 3px 0;
+	overflow: hidden
+}
+.menu-r .random-p img, .menu-r .mobile-p img {
+	display: block;
+	max-width: 100%;
+	height: 100%;
+	margin: 0 auto
+}
+.menu-r .random-p {
+	width: 80px;
+	height: 44px;
+	margin: 3px 18px
+}
+.menu-r .mobile-p {
+	width: 58px;
+	height: 44px;
+	background: url(template/yloliTheme/images/app-link.png) center center no-repeat;
+	position: relative;
+	overflow: visible
+}
+.menu-r .mobile-p:hover {
+	background-image: url(template/yloliTheme/images/app-link-hover.png)
+}
+.menu-r .mobile-p:hover .mobile-p-box {
+	*display: block;
+	visibility: visible;
+	opacity: 1
+}
+.menu-r .mobile-p .mobile-p-box {
+	visibility: hidden;
+	opacity: 0;
+	*display: none;
+	position: absolute;
+	overflow: hidden;
+	top: 44px;
+	width: 259px;
+	height: 174px;
+	right: -20px;
+	background: url(template/yloliTheme/images/app-box.png) center center no-repeat;
+	transition: .2s;
+	transition-property: opacity;
+    z-index: 99;
+}
+.menu-r .mobile-p .mobile-p-box .mobile-p-qrcode {
+	position: absolute;
+	top: 30px;
+	width: 100px;
+	height: 100px;
+	left: 80px;
+	background: url(template/yloliTheme/images/app-qrcode.png) center center no-repeat
+}
+
+/*搜索栏*/
+#scbar {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	width: 268px;
+	height: 32px;
+	line-height: normal;
+	border-top: none;
+	border-bottom: none;
+	background: none;
+	background-color: rgba(0, 0, 0, 0.12);
+	padding: 2px;
+	border-radius: 6px;
+}
+#scbar_form {
+	background-color: rgba(255, 255, 255, 0.88);
+	display: block;
+	height: 32px;
+	border-radius: 4px;
+	transition: .2s background-color;
+}
+#scbar_form:hover {
+	background-color: #fff;
+}
+.scbar_txt_td, .scbar_type_td {
+	background: none;
+}
+#scbar_txt {
+	float: left;
+	width: 200px;
+	color: #222;
+	font-size: 12px;
+	overflow: hidden;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 12px 0 10px;
+	border: 0;
+	box-shadow: none;
+	background-color: transparent;
+}
+.scbar_btn_td {
+	width: auto;
+	background: none;
+}
+#scbar_btn {
+	display: block;
+	min-width: 0;
+	cursor: pointer;
+	height: 32px;
+	background: url(template/yloliTheme/images/icons-bili.png) -653px -720px;
+	margin: 0;
+	padding: 0 2px 0 0;
+	border: 0;
+}
+#scbar_btn:hover {
+	background-position: -718px -720px;
+}
+
+/*尾部*/
+.footer {
+	width: 100%;
+	color: #99a2aa;
+	text-align: center;
+	height: 230px;
+	background-color: #f6f9fa;
+	padding-top: 30px;
+}
+.footer .footer-cnt {
+	width: 1160px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.footer .boston-postcards {
+	list-style: none;
+	margin: 0 auto;
+	height: 80px;
+	float: left;
+	margin-bottom: 40px
+}
+.footer .boston-postcards li {
+	float: left;
+	text-align: left;
+	list-style: none;
+	width: 330px;
+	height: 100px;
+	padding-right: 10px;
+	line-height: 22px;
+	border-left: solid 1px #e5e9ef;
+	padding-left: 69px;
+	font-size: 14px
+}
+.footer .boston-postcards li:first-child {
+	border-left: 0;
+	padding-left: 0 !important
+}
+.footer .boston-postcards li .tips {
+	margin-bottom: 12px
+}
+.footer .boston-postcards li .cards {
+	float: left;
+	width: 86px;
+	position: relative
+}
+.footer .boston-postcards li .cards.taobao {
+	position: relative;
+	background: url(template/yloliTheme/images/b-taobao.png) no-repeat;
+	width: 100px;
+	height: 40px;
+	margin-bottom: -23px;
+	margin-top: 5px
+}
+.footer .boston-postcards li .cards.longer {
+	width: 100px
+}
+.footer .boston-postcards li .cards.wide {
+	margin-right: 20px
+}
+.footer .partner {
+	padding: 0;
+	text-align: left;
+	margin: 0 auto;
+	height: 80px;
+	float: left
+}
+.footer .partner .z {
+	line-height: 24px;
+}
+.footer .partner p {
+	color: #717171;
+}
+.footer .partner .partner-banner {
+	background: url(template/yloliTheme/images/footpic.gif);
+	width: 96px;
+	height: 70px;
+	margin: 3px 10px 3px 0
+}
+.footer .block.y {
+	position: relative;
+	width: 345px
+}
+.footer .block.y div {
+	position: relative;
+	width: 65px;
+	height: 80px;
+	float: left;
+	margin-right: 46px
+}
+.footer .block.y em {
+	position: absolute;
+	width: 70px;
+	height: 16px;
+	float: left;
+	bottom: 0;
+	left: 0;
+	text-align: center
+}
+.footer .block.y .pic {
+	position: relative;
+	width: 65px;
+	height: 65px;
+}
+.footer .block.y .phone .pic {
+	background: url("template/yloliTheme/images/icons-bili.png") no-repeat -1020px -190px
+}
+.footer .block.y .phone .pic:hover {
+	background-position: -1086px -190px
+}
+.footer .block.y .weibo .pic {
+	background: url("template/yloliTheme/images/icons-bili.png") no-repeat -1020px -318px
+}
+.footer .block.y .weibo .pic:hover {
+	background-position: -1086px -318px
+}
+.footer .block.y .weixin .pic {
+	color: #222;
+	background: url("template/yloliTheme/images/icons-bili.png") no-repeat -1020px -62px
+}
+.footer .block.y .weixin .pic:hover {
+	background-position: -1086px -62px
+}
+.footer .block.y .qrcode-box-wrp {
+	width: 130px;
+	height: 130px;
+	background: #fff;
+	margin-top: -140px;
+	right: -57px;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition: .2s
+}
+.footer .block.y .qrcode-box {
+	width: 130px;
+	height: 130px;
+	border: 1px solid #e5e9ef
+}
+.footer .block.y .qrcode-box.qrcode-app {
+	background: url(template/yloliTheme/images/app-qrcode.png) center center no-repeat
+}
+.footer .block.y .qrcode-box.qrcode-weibo {
+	background: url(template/yloliTheme/images/weibo-qrcode.png) center center no-repeat
+}
+.footer .block.y .qrcode-box.qrcode-weixin {
+	background: url(template/yloliTheme/images/wx.jpg) center center no-repeat
+}
+.footer .block.y .qrcode-box .qrcode-box-arrow {
+	width: 130px;
+	height: 143px;
+	background: url(template/yloliTheme/images/wx-arrow.png) bottom center no-repeat
+}
+.footer .block.y .phone:hover .qrcode-box-wrp, .footer .block.y .weibo:hover .qrcode-box-wrp, .footer .block.y .weixin:hover .qrcode-box-wrp {
+	visibility: visible;
+	opacity: 1
+}
+#ft {
+	border: none;
+}
+
+/*回到顶部*/
+.index-nav {
+	position: fixed;
+	bottom: 50px;
+	left: 50%;
+	margin-left: 590px;
+	width: 48px;
+	z-index: 90;
+	opacity: 0;
+	text-align: center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	transition: .3s;
+}
+.index-nav .custom-bg {
+	z-index: 5;
+	position: absolute;
+	top: 150px;
+	left: -70px;
+	height: 100px;
+	width: 100px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	transition: .3s;
+	opacity: 0;
+	border-radius: 4px
+}
+.index-nav.customizing {
+	z-index: 10010
+}
+.index-nav.customizing .custom-bg {
+	top: -15px;
+	left: -130px;
+	height: 100%;
+	padding-bottom: 20px;
+	width: 200px;
+	opacity: 1
+}
+.index-nav.customizing .tip {
+	top: 0;
+	opacity: 1
+}
+.index-nav.customizing .n-i.sortable {
+	cursor: move
+}
+.index-nav .pointer-block {
+	position: absolute;
+	width: 48px;
+	height: 32px;
+	margin-left: -1px;
+	background: #00a1d6;
+	z-index: -1;
+	transition: .1s all linear;
+	display: none
+}
+.index-nav .border {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: -3px;
+	border: 3px solid #fafafa;
+	left: -3px;
+	border-radius: 4px;
+	display: none
+}
+.index-nav .nav-list {
+	position: relative;
+	z-index: 233;
+	background-color: #f6f9fa;
+	border: 1px solid #e5e9ef;
+	overflow: hidden;
+	border-radius: 4px
+}
+.index-nav.sub .nav-list {
+	border: 0
+}
+.index-nav .n-i {
+	cursor: pointer
+}
+.index-nav .n-i:first-child {
+	border-top: 0
+}
+.index-nav .n-i.gotop {
+	border: 0;
+	position: relative;
+	z-index: 50
+}
+.index-nav .n-i.gotop .s-line {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	height: 9px;
+	width: 30px;
+	margin: 0 auto
+}
+.index-nav .n-i.gotop.sub .s-line {
+	display: none
+}
+.index-nav .n-i.gotop .btn_gotop {
+	height: 48px;
+	background: #f6f9fa url(template/yloliTheme/images/icons-bili.png) -648px -72px no-repeat;
+	border: 1px solid #e5e9ef;
+	overflow: hidden;
+	border-radius: 4px
+}
+.index-nav .n-i.gotop .btn_gotop:hover {
+	background-color: #00a1d6;
+	background-position: -714px -72px;
+	border-color: #00a1d6
+}
+.index-nav .n-i.customize {
+	display: none;
+	padding: 8px 0;
+	border-top: 1px solid #e5e9ef
+}
+.index-nav .n-i.customize .n-icon-sort {
+	display: block;
+	margin: 0 auto 4px;
+	background: url(template/yloliTheme/images/icons-bili.png) -663px -151px no-repeat;
+	height: 18px;
+	width: 18px
+}
+.index-nav .n-i.customize:hover {
+	color: #fff;
+	background-color: #00a1d6
+}
+.index-nav .n-i.customize:hover .n-icon-sort {
+	background-position: -727px -151px
+}
+.index-nav .n-i.n-i-mlink {
+	border: 0;
+	position: relative;
+	z-index: 50
+}
+.index-nav .n-i.n-i-mlink .mlink-dl-msg {
+	background: url(http://i1.hdslb.com/u_user/nav_float/download.png);
+	width: 106px;
+	height: 44px;
+	position: absolute;
+	left: -106px;
+	top: -23px;
+	display: none
+}
+.index-nav .n-i.n-i-mlink .n-i-mlink-bg {
+	height: 30px;
+	margin-left: -16px
+}
+.index-nav .n-i .name {
+	height: 32px;
+	line-height: 32px;
+	transition: .1s linear;
+	transition-property: background-color, color
+}
+.index-nav .n-i .name:hover {
+	background-color: #00a1d6;
+	color: #fff
+}
+.index-nav .n-i.on .name {
+	color: #fff
+}
+.index-nav .n-i.on .name:hover {
+	background-color: transparent;
+	color: #fff
+}
+
+/*其他*/
+.b-btn.b-btn-textonly, button.b-btn-textonly {
+	color: #00a1d6;
+	border-color: transparent;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.b-btn.b-btn-textonly:hover, button.b-btn-textonly:hover {
+	border-color: #e5e9ef;
+	color: #00a1d6;
+	background-color: #e5e9ef;
+}
+.b-btn:hover, button:hover {
+	background-color: #00b5e5;
+	border-color: #00b5e5;
+}

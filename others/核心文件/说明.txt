@@ -1,0 +1,6 @@
+此文件夹下文件复制到对应目录覆盖原有文件, 建议先备份原文件
+/source/function/cache/cache_setting.php
+/source/module/forum/forum_forumdisplay.php
+/source/module/forum/forum_viewthread.php
+/source/class/helper/helper_page.php
+
